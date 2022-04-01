@@ -68,10 +68,17 @@ handleAdd = (event) => {
 ```
 
 7. Add function in handle add
+// add state & update
+// must use *setState
+
 
 ```
 handleAdd = () => {
-    
+    this.setState({ count: this.state.count + 1})
+
 }
 
 ```
+
+8. ask how to create delete function
+   
