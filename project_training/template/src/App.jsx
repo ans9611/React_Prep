@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Habit from './components/food'
 
 function App() {
   const meta = 'Two Sum'
@@ -13,6 +14,10 @@ function App() {
     {['Tom', 'Jerry'].map(item => (
       <h1>{item}</h1>
     ))}
+
+    <Habit />
+
+
     
     </>
   );
